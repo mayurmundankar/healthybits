@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import { Menu, X, Apple } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import Logo from './HBlogo.svg';
+// import HBLogo from './assets/HBLogo.svg';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -11,10 +11,9 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center gap-2">
-            <Apple className="h-8 w-8 text-orange-400" />
-            <span className="text-2xl font-bold text-orange-400">
-              HealthyBits
-            </span>
+            <div>
+            <img src="./assets/HBLogo.svg" alt="Healthy Bits Logo" />
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
