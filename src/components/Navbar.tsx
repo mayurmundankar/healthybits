@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import React from 'react';
 // import HBLogo from './assets/HBLogo.svg';
 
 export default function Navbar() {
@@ -10,10 +11,9 @@ export default function Navbar() {
     <nav className="bg-white shadow-md">
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          <Link to="/" className="flex items-center gap-2">
-            <div>
-            <img src="./assets/HBLogo.svg" alt="Healthy Bits Logo" />
-            </div>
+          <Link to="/" className="flex items-center">
+            <img src="/Logo.png" alt="Healthy Bits Logo" className="h-12 w-auto" />
+            <span className="ml-2 font-bold text-orange-500 text-lg">Healthy Bits</span>
           </Link>
 
           {/* Desktop Navigation */}
