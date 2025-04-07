@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { Minus, Plus, Tag, ShoppingCart } from 'lucide-react';
 import { products } from './Products';
+import React from 'react';
 
 export default function Shop() {
   const { productId } = useParams();

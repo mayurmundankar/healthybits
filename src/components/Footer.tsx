@@ -55,7 +55,7 @@ export default function Footer() {
           </div>
           <div>
             <h4 className="font-bold mb-4">Certifications</h4>
-            <p className="text-gray-400">FSSAI Lic No: 12345678901234</p>
+            <p className="text-gray-400">FSSAI Lic No: 21525080000288</p>
           </div>
         </div>
         <div className="border-t border-gray-700 pt-8 text-center text-gray-400">
