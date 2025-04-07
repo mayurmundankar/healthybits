@@ -36,7 +36,7 @@ export default function Shop() {
   const handleCheckout = () => {
     // Initialize Razorpay payment
     const options = {
-      key: 'YOUR_RAZORPAY_KEY', // Replace with actual key
+      key: 'NxxPgQ4vz4EhfjM1lGiNOH5f', // Replace with actual key
       amount: total * 100, // Razorpay expects amount in paise
       currency: 'INR',
       name: 'HealthyBits',
