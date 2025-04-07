@@ -10,7 +10,7 @@ export const products = [
     image:
       'https://static.vecteezy.com/system/resources/previews/045/595/418/large_2x/healthy-energy-balls-made-of-dried-fruits-and-nuts-healthy-food-photo.jpg',
     price: 299,
-    originalPrice: 399,
+    originalPrice: 349,
     weight: '250g',
     ingredients: 'Almonds, Dates, Pumpkin Seeds, Flax Seeds, more...',
     nutritionalInfo: {
