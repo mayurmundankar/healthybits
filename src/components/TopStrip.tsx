@@ -8,11 +8,11 @@ export default function TopStrip() {
         <p className="font-medium">Get 10% off on your first order!</p>
         <div className="flex gap-6">
           <a
-            href="mailto:contact@healthybits.in"
+            href="mailto:info@healthybits.in"
             className="flex items-center gap-2 hover:text-orange-200"
           >
             <Mail size={16} />
-            contact@healthybits.in
+            info@healthybits.in
           </a>
           <a
             href="tel:9370060963"

@@ -4,15 +4,15 @@ import { Link } from 'react-router-dom';
 
 export const products = [
   {
-    id: 'fruit-mix',
-    name: 'Dry-Fruit Mix Laddu',
-    description: 'A delightful blend of premium dried fruits',
+    id: 'seeds-mix-laddu',
+    name: 'Super Seeds Mix Laddu',
+    description: 'A delightful blend of premium healthy seeds',
     features: ['High in Fiber', 'Natural Sweetness', 'No Added Sugar'],
     image:
       'https://static.vecteezy.com/system/resources/previews/045/595/418/large_2x/healthy-energy-balls-made-of-dried-fruits-and-nuts-healthy-food-photo.jpg',
-    price: 299,
-    originalPrice: 349,
-    weight: '250g',
+    price: 219,
+    originalPrice: 275,
+    weight: '200g',
     ingredients: 'Almonds, Dates, Pumpkin Seeds, Flax Seeds, more...',
     nutritionalInfo: {
       calories: '120 kcal',
@@ -22,15 +22,15 @@ export const products = [
     },
   },
   {
-    id: 'nut-medley',
-    name: 'Roasted Mix Seeds',
-    description: 'Carefully selected mix of nutritious seeds & nuts',
+    id: 'seeds-mix',
+    name: 'Super Roasted Seeds Mix',
+    description: 'Carefully selected mix of nutritious seeds',
     features: ['Rich in Protein', 'Heart Healthy', 'Omega-3 Rich'],
     image:
       'https://imgmedia.lbb.in/media/2021/08/610c0dddbf1229243d8a5843_1628179933562.jpg',
-    price: 449,
-    originalPrice: 549,
-    weight: '200g',
+    price: 99,
+    originalPrice: 125,
+    weight: '100g',
     ingredients: 'Pumpkin Seeds, Chia Seeds, Flax Seeds, Nuts',
     nutritionalInfo: {
       calories: '160 kcal',
@@ -41,15 +41,15 @@ export const products = [
   },
   {
     id: 'energy-bites',
-    name: 'Energy Bits Laddu',
+    name: 'Super Dry Fruits Laddu',
     description: 'Natural energy boosters for active lifestyles',
-    features: ['Plant Based', 'Raw ingredients', 'Protein Rich'],
+    features: ['0% Added Sugar', 'Raw ingredients', 'Protein Rich'],
     image:
       'https://img.freepik.com/premium-photo/indian-sweet-healthy-dry-fruit-laddu-laddoo_466689-97123.jpg?w=2000',
-    price: 349,
-    originalPrice: 449,
-    weight: '180g',
-    ingredients: 'Dates, Almonds, Cocoa, Chia Seeds',
+    price: 219,
+    originalPrice: 275,
+    weight: '200g',
+    ingredients: 'Almonds, Walnut, Cashew, Dates, Honey',
     nutritionalInfo: {
       calories: '140 kcal',
       protein: '4g',
