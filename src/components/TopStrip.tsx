@@ -6,7 +6,7 @@ export default function TopStrip() {
   return (
     <div className="bg-orange-400 text-white py-2 px-4">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center text-sm">
-        <p className="font-medium w-full text-center md:text-left mb-2 md:mb-0">Get 10% off on your first order!</p>
+        <p className="font-medium w-full text-center md:text-left mb-2 md:mb-0">Get 10% off on your first order! Use code: HEALTHY10</p>
         <div className="flex gap-6">
           <a
             href="mailto:info@healthybits.in"
